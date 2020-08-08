@@ -11,16 +11,16 @@ function App() {
         <nav>
           <ul>
             <li>
-              Home
+              <a href="#">Home</a>
             </li>
             <li>
-              About
+              <a href="#">About</a>
             </li>
             <li>
-              Pets
+              <a href="#">Pets</a>
             </li>
             <li>
-              Contact
+              <a href="#">Contact</a>
             </li>
           </ul>
         </nav>
@@ -37,19 +37,6 @@ function App() {
         <img className="main" src={main} alt="main-doteme"/>
 
       </main>
-
-
-      <footer>
-
-      </footer>
-
-
-
-
-
-
-
-
     </div>
   );
 

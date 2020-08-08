@@ -1,44 +1,67 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 * {
     background-color: rgb(9, 73, 125);
 }
 
+html, body {
+    height: 10vh;
+    
+
+}
+
 .logo {
-    height: 300px;
+    height: 33vh;
+}
+
+main {
+    width: 100vw;
+
 }
 
 .main {
-    height: 800px;
+    height: 90vh;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 4vh;
+    font-family: sans-serif;
 }
 
 nav {
     display: flex;
-    padding-bottom: 75pt;
-    justify-content: left;
-    justify-self: left; 
-;
+    justify-content: end;
+    margin-left: 50vh;
 
 }
 
 ul {
+    display: flex;
     list-style: none;
     display: flex;
-    position: absolute;
-    padding: 1 auto;
-    margin: 10;
-    flex-direction: row;
 }
 
 li {
     display: flex;
-    margin: 10px;
+    margin: 25px;
     padding: 10px auto;
     font-size: 3em;
     color: white;
 }
 
+
+
 header {
     display: flex;
     align-items: center;
+    flex: 1;
 }
 
 main {
@@ -47,22 +70,33 @@ main {
 
 h1 {
     color: white;
-    font-size: 7em;
+    font-size: 10vh;
     text-align: left;
     padding-left: 80pt;
+    padding: 40px;
 }
 
 .but {
-    display: inline;
+    display: flex;
+}
 
+.but2 {
+    text-decoration: none;
+    font-size: 3vh;
+    padding: 0vh 0vh;
+    color: white;
+    border: 1px solid rgb(51, 173, 204);
 }
 
 
 .but1 {
     text-decoration: none;
-    padding: 30pt;
+    padding: 25px;
     background-color: rgb(51, 173, 204);
-    text-decoration-color: white;
-    text-size-adjust: 12pt;
+    color: white;
+    font-size: 20px;
+    margin-right: 40px;
+    margin-left: 100px;
 }
+
 
